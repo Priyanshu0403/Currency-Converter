@@ -1,0 +1,99 @@
+*{
+    border: none;
+    padding: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:darkslategrey;
+    color: white;
+}
+
+.container1{
+    background-color: cadetblue;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+.header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 46, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header i{
+    color: rgb(234, 181, 66);
+}
+form{
+    margin: 2rem 0 1rem 0;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+form select,button,input{
+    width: 100%;
+    outline-color: darkslategray;
+    background-color: darkslategray;
+    border-radius: 0.75rem;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+form input{
+    border: 1px solid rgb(29, 35, 35);
+    height: 2rem;
+}
+form select{
+    background-color: cadetblue;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: black;
+}
+.select-container img{
+    max-width: 3rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 0.5rem;
+    border: 1px solid darkslategray;
+    color: black;
+}
+
+.select-container select{
+    font-size: 1rem;
+    width: auto;
+    color: black;
+}
+
+.msg{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+form button{
+    height: 3rem;
+    background-color: #1d184b;
+    font-size: 1.2rem;
+}
